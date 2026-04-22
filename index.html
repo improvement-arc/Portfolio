@@ -2,532 +2,664 @@
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <title>Siddharth Singh | Portfolio</title>
+  <meta name="description" content="Portfolio of Siddharth Singh - Developer, AI Enthusiast, ECE Student">
+  <meta name="keywords" content="Siddharth Singh, Portfolio, Web Developer, AI, Embedded Systems, SRMIST">
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Boxicons -->
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-169007209-3');
-  </script>
-
-
-
-  <!-- =======================================================
-  * Template Name: Personal - v2.1.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Main CSS -->
+  <link href="assets/css/portfolio.css" rel="stylesheet">
 </head>
 
 <body>
-  
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
 
-    <div class="container">
-
-      <h1><a href="index.html">Siddharth Singh</a></h1>
-      <h2 style="color:#fff">I'm <span class="typing" style="color:red"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <li><a href="#experience"> <span>Experience</span></a></li>
-<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://drive.google.com/file/d/1h03D4_pOuU2GNspKyyEcHnxffcuWE5f5/view" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <div class="social-links">
-          <a href="https://www.linkedin.com/in/siddharth-singh-582962289/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="https://github.com/improvement-arc" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:siddharth55506l@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
-      </div>
-
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Siddharth<span>.</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/1OUJfHdgbrAIYHasK5g6v69N8U-aptwPc/view?usp=sharing" target="_blank"
+            class="nav-resume-btn">Resume</a></li>
+      </ul>
     </div>
-  </header><!-- End Header -->
+  </nav>
 
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Siddharth Singh</h1>
+      <h2 class="hero-tagline">I'm a <span class="typing-text" id="typingText"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">ECE Student at SRMIST · Developer · AI & Embedded Systems Enthusiast</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
       </div>
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/siddharth-singh-582962289/" target="_blank" aria-label="LinkedIn"><i
+            class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/improvement-arc" target="_blank" aria-label="GitHub"><i
+            class='bx bxl-github'></i></a>
+        <a href="mailto:siddharth55506l@gmail.com" aria-label="Email"><i class='bx bx-envelope'></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll Down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/mee.jpg" class="img-fluid" alt="">
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get to Know Me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <img src="assets/img/meee.png" alt="Siddharth Singh" class="about-img">
+          <div class="about-img-decoration"></div>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p>My name is Siddharth Singh, I am an aspiring Web Developer and a keen learner 
+        <div class="about-content">
+          <p class="about-intro">
+            My name is <strong>Siddharth Singh</strong>, a B.Tech ECE student at SRMIST passionate about building
+            impactful technology. I work across software and hardware — from web applications and AI-driven tools to
+            embedded systems and IoT prototypes.
           </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 4 july 2004</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 9324987693</li>
-              </ul>
+          <div class="about-details">
+            <div class="detail-item"><i class='bx bx-cake'></i><span><strong>Birthday:</strong> 4 July 2004</span></div>
+            <div class="detail-item"><i class='bx bx-map'></i><span><strong>City:</strong> Chennai, Tamil Nadu</span>
             </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>City:</strong>Chennai,Tm</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> siddharth55506l@gmail.com</li>
-              </ul>
+            <div class="detail-item"><i class='bx bx-phone'></i><span><strong>Phone:</strong> +91 9324987693</span>
             </div>
+            <div class="detail-item"><i class='bx bx-envelope'></i><span><strong>Email:</strong>
+                siddharth55506l@gmail.com</span></div>
           </div>
-        </div>
-      </div>
-
-    </div><!-- End About Me -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-global-line" style="color: #ffbb2c;"></i>
-            <h3>Software Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #5578ff;"></i>
-            <h3>Machine Learning</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-            <h3>AI</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-            <h3>Web Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          
-        </div>
-      </div>
-
-    </div><!-- End Interests -->
-  </section><!-- End About Section -->
-
-
-
-  <!-- ======= Education Section ======= -->
-  <section id="education" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-
-            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-              <img src="assets/img/education/srm_uni.jpg" class="img-fluid" alt="">
-              <!-- <h4 style="text-align:left;"><a href="https://www.asu.edu/" target="_blank" style="color:#12d640">Arizona State University</a><br> </h4> -->
-              <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>B.tech in Electronics & Communication Engineering</em></p>
-              <h5 style="text-align:left;padding: 0px 10px;">july 2022 - May 2026</h5>
-              <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Relevant Coursework</h6>
-              <ul style="text-align:left;color:#fff;">
-                <li>Electronic Components </li>
-                <li>Fundamental Devices </li>
-                <li>More to come </li>
-              </ul>
-            </div>
-           
-          </div>
-        </div>
-      </div>
-
-    <div class="portfolio">
-    <div class="container">
-      <div class="section-title">
-        <h2>Online Certification</h2>
-      </div>
-
-      <div class="row portfolio-container" style="position: relative; height: 437.75px;">
-
-         <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/coint.jpeg" class="img-fluid" alt="" style="width: 400px;">
-            <div class="portfolio-info">
-              <h4>Data Science</h4>
-              <div class="portfolio-links">
-                <a href="https://drive.google.com/file/d/1njvGyJHTbQfw7Ire-uc__pDGSPjzkYlJ/view?usp=drive_link" target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-           </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
-          <div class="portfolio-wrap">
-            <img src="assets/img/certification/More-Coming-Soon.jpg" class="img-fluid" alt="" style="width: 400px;">
-            <div class="portfolio-info">
-              <h4>Pls Wait</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-
-  </section>
-  <!-- End Education Section -->
-
-
-
-  <!-- Start Experience Section -->
-
-  <section id="experience" class="services">
-    <div>
-      <hi>Unfortunately the experience is a little low </hi>
-      <img src="./assets/img/ced2d0cc1832708a6a1ee95df0e285a1.gif">
-    </div>
-  </section>
-
-  <!-- End Experience Section -->
-
-
-
-  <!-- Start Project Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projects</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter=".filter-project">Projects</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Black line folowing car</h4></center>
-          <div class="portfolio-wrap">
-            <img src="./assets/img/project/b7a0e546-e3c9-4d21-ad4c-e66dad77f8dd.jpg" class="img-fluid" alt="" style="width: 400px;">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/Black line folowing car.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Proximity Sensor</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/iras.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/iras.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>Proximity Sensor</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/5b873109-6884-4c01-8f87-dbc8e49602ab.jpg" class="img-fluid" alt="" style="width: 400px;">
-            <div class="portfolio-info">
-              
-              <div class="portfolio-links">
-                <a href="projects/musicplayer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>To-Do App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/todo.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-       
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <br>
-          <center><h4>Tech Blog</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/blog.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/blog.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-       
-
-         <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center><h4>ML-DL Web-App</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/ml.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <!-- <br> 
-          <center><h4>Image Generator</h4></center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/gan.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>-->
-
-      </div>
-    </div>
-  </section>
-
-  <!-- End Project Section -->
-
-
-
-  <!-- Start Skills Section -->
-
-  <section id="skills" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone" height="50" width="150">
-                  <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="vectorlogo.zone" height="50" width="120">
-                  <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="upload.wikimedia.org" height="60" width="90">
-                  <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70" width="130">
-
-                </p>
-            </div>
-            <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="upload.wikimedia.org" width="90" height="70">
-              </p>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100" style="background:#fff">
-              <h4 style="text-align:left;color:#09203a">Tools</h4>
-                <p style="text-align:left;">
-                  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-ar21.svg" alt="vectorlogo.zone">
-                  <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" alt="vectorlogo.zone">
-              </p>
+          <div class="about-interests">
+            <div class="interest-tag"><i class='bx bx-code-alt'></i> Software Development</div>
+            <div class="interest-tag"><i class='bx bx-chip'></i> Embedded Systems</div>
+            <div class="interest-tag"><i class='bx bx-brain'></i> Machine Learning</div>
+            <div class="interest-tag"><i class='bx bx-network-chart'></i> AI</div>
+            <div class="interest-tag"><i class='bx bx-globe'></i> Web Development</div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- End Skills Section -->
-
-
-
-
-  <!-- Start Links section -->
-<!--<section id="links" class="services">
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section section-dark">
     <div class="container">
-      <div class="section-title">
-        <h2>Resume</h2>
+      <div class="section-header">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
       </div>
-      <div class="row">
-        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://drive.google.com/file/d/1h03D4_pOuU2GNspKyyEcHnxffcuWE5f5/view?usp=drive_link" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://drive.google.com/file/d/1h03D4_pOuU2GNspKyyEcHnxffcuWE5f5/view?usp=drive_link" target="_blank">Resume</a></h4>
-          <p class="description" style="color:#fff;">The link contains downloadable resume</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">B.Tech in Electronics &amp; Communication Engineering</h3>
+                <p class="timeline-org">SRM Institute of Science and Technology (SRMIST)</p>
+              </div>
+              <span class="timeline-badge">2022 – 2026</span>
+            </div>
+            <p class="timeline-desc">Kattankulathur, Tamil Nadu · Chengalpattu District</p>
+            <div class="coursework">
+              <span>Electronic Components</span>
+              <span>Fundamental Devices</span>
+              <span>Signal Processing</span>
+              <span>Microcontroller Systems</span>
+              <span>Wireless Communication</span>
+            </div>
+          </div>
         </div>
-        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
-          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
-          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
-        </div> -->
       </div>
     </div>
   </section>
-     <!--End Links Section -->
 
-
-  <!-- Start Contact Section -->
-
-  <section id="contacts" class="contact">
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section">
     <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
+      <div class="section-header">
+        <span class="section-tag">Work History</span>
+        <h2 class="section-title">Experience</h2>
       </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>SRMIST</p>
-            <p>Kattankulathur</p>
-            <p>603 203. Chengalpattu District, Tamil Nadu</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Software Development Intern</h3>
+                <p class="timeline-org">Prudas Technologies Private Limited</p>
+              </div>
+              <span class="timeline-badge">June – July 2025</span>
+            </div>
+            <ul class="exp-list">
+              <li>Designed a user-friendly and responsive app for visually impaired people, gaining insights into
+                day-to-day accessibility challenges.</li>
+              <li>Developed backend logic using the <strong>MVC .NET framework</strong>.</li>
+              <li>Integrated and managed a <strong>SQL Server</strong> database consisting of several live frames for
+                blind navigation.</li>
+              <li>Conducted unit testing to ensure the functionality and reliability of modules.</li>
+              <li>Collaborated within the development team to meet project deadlines efficiently.</li>
+              <li>Handled cross-departmental work on both software and hardware models for the visually impaired.</li>
+            </ul>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/siddharth-singh-582962289/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              <a href="https://github.com/improvement-arc" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-              <a href="mailto:siddharth55506l@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
 
+        <div class="glass-card project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/img/project/glasses.png" alt="Ultrasonic Glasses for Visually Impaired"
+              class="project-img">
+            <div class="project-overlay">
+              <span class="project-tag">Hardware · AI · IoT</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Ultrasonic Glasses for Visually Impaired</h3>
+            <p class="project-desc">Designed low-cost ultrasonic glasses using ESP32 and ultrasonic sensors for
+              real-time obstacle detection. Integrated an AI-based model for turn-by-turn audio instructions, enhancing
+              mobility and independence for visually impaired users.</p>
+            <div class="project-tags">
+              <span>ESP32</span><span>Ultrasonic Sensors</span><span>AI</span><span>Text-to-Speech</span>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>siddharth55506l@gmail.com</p>
-            <p>ss9688@srmist.edu.in</p>
+        <div class="glass-card project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/img/project/farmer website.png" alt="Website for Farmers" class="project-img">
+            <div class="project-overlay">
+              <span class="project-tag">Web · AI · ML</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Website for Farmers</h3>
+            <p class="project-desc">Developed a comprehensive platform with an online marketplace for farmers to sell
+              directly to consumers. Integrated AI-driven crop recommendation and disease prediction systems based on
+              soil type, climate, and seasonal data.</p>
+            <div class="project-tags">
+              <span>Web Dev</span><span>AI/ML</span><span>React</span><span>Flask</span>
+            </div>
           </div>
         </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Contact</h3>
-            <p>+91 9324987693</p>
+
+        <div class="glass-card project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/img/project/jammer.png" alt="WiFi Deauthentication Device" class="project-img">
+            <div class="project-overlay">
+              <span class="project-tag">Cybersecurity · Hardware · Python</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">WiFi Deauthentication &amp; Prevention</h3>
+            <p class="project-desc">Phase 1: Built a hardware WiFi deauthentication device using NodeMCU (ESP8266) with
+              OLED display for real-time attacks. Phase 2: Simulation-based research in Python evaluating mitigation
+              techniques — adaptive filtering showed strongest performance.</p>
+            <div class="project-tags">
+              <span>ESP8266</span><span>Cybersecurity</span><span>Python</span><span>Matplotlib</span>
+            </div>
           </div>
         </div>
+
+        <div class="glass-card project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/img/project/platoon.png" alt="Platoon Detection Simulation" class="project-img">
+            <div class="project-overlay">
+              <span class="project-tag">AI · CNN · Simulation</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Platoon Detection Simulation</h3>
+            <p class="project-desc">Two-phase Python simulation. Phase 1: Real-time platoon formation demonstrating
+              dynamic speed and spacing. Phase 2: CNN-based autonomous vehicle model processing sensor data for
+              environment-aware driving decisions in platoon scenarios.</p>
+            <div class="project-tags">
+              <span>Python</span><span>CNN</span><span>Tkinter</span><span>Matplotlib</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card project-card reveal">
+          <div class="project-img-wrap">
+            <img src="assets/img/project/energy harvesting node.png" alt="Smart Energy Harvesting Node"
+              class="project-img">
+            <div class="project-overlay">
+              <span class="project-tag">IoT · Hardware · LoRa</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Smart Energy Harvesting Node</h3>
+            <p class="project-desc">Self-sustaining IoT sensor node harvesting from solar, piezoelectric, and
+              thermoelectric sources. Implemented controlled power cycling logic and integrated LoRa wireless
+              communication with real-time anomaly detection and voice alerts.</p>
+            <div class="project-tags">
+              <span>IoT</span><span>LoRa</span><span>Solar</span><span>Anomaly Detection</span>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
     </div>
   </section>
 
-  <!-- End Contact Section -->
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Toolkit</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-grid">
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Coder", "Developer", "AI Enthusiast"],
-      loop: true,
-      typeSpeed: 65,
-      backSpeed: 65
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card-icon"><i class='bx bx-code-curly'></i></div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C</span><span>C++</span>
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card-icon"><i class='bx bx-chip'></i></div>
+          <h3>Hardware &amp; Embedded</h3>
+          <div class="skill-tags">
+            <span>ESP32</span><span>ESP8266</span><span>Arduino</span>
+            <span>8051 MCU</span><span>ARM-based MCU</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card-icon"><i class='bx bx-broadcast'></i></div>
+          <h3>Communication Protocols</h3>
+          <div class="skill-tags">
+            <span>WiFi</span><span>CAN</span><span>LoRa</span>
+            <span>UART</span><span>I2C</span><span>SPI</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card-icon"><i class='bx bx-layer'></i></div>
+          <h3>Tools &amp; Frameworks</h3>
+          <div class="skill-tags">
+            <span>MVC .NET</span><span>SQL Server</span><span>Flask</span>
+            <span>Git</span><span>React</span><span>Node.js</span><span>Express.js</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card-icon"><i class='bx bx-desktop'></i></div>
+          <h3>Software &amp; Simulation</h3>
+          <div class="skill-tags">
+            <span>MATLAB</span><span>Tkinter</span><span>Matplotlib</span><span>EasyEDA</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card reveal">
+          <div class="skill-card-icon"><i class='bx bx-wrench'></i></div>
+          <h3>Hardware Skills</h3>
+          <div class="skill-tags">
+            <span>Sensor Integration</span><span>PCB Prototyping</span>
+            <span>Power Management</span><span>Text-to-Speech</span><span>Signal Processing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+      <div class="certs-grid">
+
+        <div class="glass-card cert-card reveal" data-cert data-title="MERN Stack Development" data-icon="bxl-react"
+          data-img="assets/img/certification/mern.png" data-provider="30 Days of Coding" data-mode="Virtual"
+          data-date="Dec 2024 - May 2025"
+          data-desc="Completed an intensive MERN Stack (MongoDB, Express.js, React, Node.js) development programme. Covered full-stack web application development, RESTful API design, JWT authentication, state management, and deployment best practices.">
+          <div class="cert-icon" style="padding:0; overflow:hidden; border:none; background:transparent;"><img
+              src="assets/img/certification/mern.png" alt="MERN Stack"
+              style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+          <div class="cert-body">
+            <h3>MERN Stack</h3>
+            <p class="cert-provider">30 Days of Coding · Virtual</p>
+            <span class="cert-date">Dec 2024 - May 2025</span>
+          </div>
+          <div class="cert-tap-hint"><i class='bx bx-info-circle'></i></div>
+        </div>
+
+        <div class="glass-card cert-card reveal" data-cert data-title="Cyber Security" data-icon="bx-shield-alt-2"
+          data-provider="Udemy" data-mode="Virtual" data-date="Feb 2023 – Dec 2023"
+          data-desc="Comprehensive course covering network security, ethical hacking fundamentals, cryptography, vulnerability assessment, penetration testing concepts, and cyber threat analysis. Gained practical exposure to security tools and attack-defense scenarios.">
+          <div class="cert-icon"><i class='bx bx-shield-alt-2'></i></div>
+          <div class="cert-body">
+            <h3>Cyber Security</h3>
+            <p class="cert-provider">Udemy · Virtual</p>
+            <span class="cert-date">Feb 2023 – Dec 2023</span>
+          </div>
+          <div class="cert-tap-hint"><i class='bx bx-info-circle'></i></div>
+        </div>
+
+        <div class="glass-card cert-card reveal" data-cert data-title="Data Science with Python"
+          data-icon="bx-bar-chart-alt-2" data-img="assets/img/certification/Screenshot 2023-12-15 213506.png"
+          data-provider="Coincent" data-mode="Virtual" data-date="Nov 2022 - Jan 2023"
+          data-desc="Hands-on programme covering Python for data analysis, NumPy, Pandas, Matplotlib, data wrangling, statistical analysis, machine learning foundations with Scikit-learn, and building predictive models. Applied learning through real-world datasets.">
+          <div class="cert-icon" style="padding:0; overflow:hidden; border:none; background:transparent;"><img
+              src="assets/img/certification/Screenshot 2023-12-15 213506.png" alt="Data Science"
+              style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+          <div class="cert-body">
+            <h3>Data Science with Python</h3>
+            <p class="cert-provider">Coincent · Virtual</p>
+            <span class="cert-date">Nov 2022 - Jan 2023</span>
+          </div>
+          <div class="cert-tap-hint"><i class='bx bx-info-circle'></i></div>
+        </div>
+
+        <div class="glass-card cert-card reveal" data-cert data-title="Full Stack Web Development" data-icon="bx-globe"
+          data-img="assets/img/certification/full stack.png" data-provider="Udemy" data-mode="Virtual"
+          data-date="Feb 2024 - April 2025"
+          data-desc="End-to-end full stack web development course covering HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, REST APIs, authentication with JWT, and deployment on cloud platforms. Built multiple full projects throughout the course.">
+          <div class="cert-icon" style="padding:0; overflow:hidden; border:none; background:transparent;"><img
+              src="assets/img/certification/full stack.png" alt="Full Stack"
+              style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+          <div class="cert-body">
+            <h3>Full Stack Web Development</h3>
+            <p class="cert-provider">Udemy · Virtual</p>
+            <span class="cert-date">Feb 2024 - April 2025</span>
+          </div>
+          <div class="cert-tap-hint"><i class='bx bx-info-circle'></i></div>
+        </div>
+
+        <div class="glass-card cert-card reveal" data-cert data-title="8051 Microcontroller and Assembly Language"
+          data-icon="bx-chip" data-img="assets/img/certification/8051.png" data-provider="Udemy" data-mode="Online"
+          data-date="April 2024 - Oct 2024"
+          data-desc="Learned architecture and assembly language programming of 8051 microcontroller. Covered instruction set, interfacing, and real-world applications in embedded systems.">
+          <div class="cert-icon" style="padding:0; overflow:hidden; border:none; background:transparent;"><img
+              src="assets/img/certification/8051.png" alt="8051 Microcontroller"
+              style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+          <div class="cert-body">
+            <h3>8051 Microcontroller</h3>
+            <p class="cert-provider">Udemy · Online</p>
+            <span class="cert-date">April 2024 - Oct 2024</span>
+          </div>
+          <div class="cert-tap-hint"><i class='bx bx-info-circle'></i></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="contact-grid">
+
+        <div class="glass-card contact-card reveal">
+          <div class="contact-icon"><i class='bx bx-map'></i></div>
+          <h3>Location</h3>
+          <p>SRMIST, Kattankulathur<br>Chengalpattu District, Tamil Nadu 603 203</p>
+        </div>
+
+        <div class="glass-card contact-card reveal">
+          <div class="contact-icon"><i class='bx bx-envelope'></i></div>
+          <h3>Email</h3>
+          <p><a href="mailto:siddharth55506l@gmail.com">siddharth55506l@gmail.com</a></p>
+          <p><a href="mailto:ss9688@srmist.edu.in">ss9688@srmist.edu.in</a></p>
+        </div>
+
+        <div class="glass-card contact-card reveal">
+          <div class="contact-icon"><i class='bx bx-phone-call'></i></div>
+          <h3>Phone</h3>
+          <p>+91 9324987693</p>
+        </div>
+
+        <div class="glass-card contact-card reveal">
+          <div class="contact-icon"><i class='bx bx-share-alt'></i></div>
+          <h3>Social</h3>
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/siddharth-singh-582962289/" target="_blank" class="social-btn"><i
+                class='bx bxl-linkedin'></i> LinkedIn</a>
+            <a href="https://github.com/improvement-arc" target="_blank" class="social-btn"><i
+                class='bx bxl-github'></i> GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERT MODAL ===== -->
+  <div id="certModal" class="cert-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="cert-modal-box">
+      <button class="cert-modal-close" id="certModalClose" aria-label="Close">&times;</button>
+      <div class="cert-modal-icon-wrap" id="modalIconWrap">
+        <div class="cert-modal-icon" id="modalIcon"><i id="modalIconEl" class='bx'></i></div>
+      </div>
+      <img id="modalImg" src=""
+        style="width: 100%; border-radius: var(--radius-sm); margin-bottom: 20px; display: none; border: 1px solid rgba(255,255,255,0.1);"
+        alt="Certificate">
+      <h2 class="cert-modal-title" id="modalTitle"></h2>
+      <div class="cert-modal-meta">
+        <span class="cert-modal-badge" id="modalProvider"></span>
+        <span class="cert-modal-badge accent" id="modalDate"></span>
+        <span class="cert-modal-badge" id="modalMode"></span>
+      </div>
+      <p class="cert-modal-desc" id="modalDesc"></p>
+    </div>
+  </div>
+
+  <!-- ===== CURSOR TRAIL ===== -->
+  <canvas id="trailCanvas" style="position:fixed;top:0;left:0;pointer-events:none;z-index:9999;"></canvas>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>Designed &amp; built by <strong>Siddharth Singh</strong> · 2025</p>
+  </footer>
+
+  <!-- JS -->
+  <script>
+    /* =============================================
+       TYPING EFFECT
+    ============================================= */
+    const words = ["Coder", "Developer", "AI Enthusiast", "Embedded Engineer"];
+    let wordIndex = 0, charIndex = 0, deleting = false;
+    const el = document.getElementById("typingText");
+    function type() {
+      const word = words[wordIndex];
+      if (!deleting) {
+        el.textContent = word.slice(0, charIndex + 1); charIndex++;
+        if (charIndex === word.length) { deleting = true; setTimeout(type, 1800); return; }
+      } else {
+        el.textContent = word.slice(0, charIndex - 1); charIndex--;
+        if (charIndex === 0) { deleting = false; wordIndex = (wordIndex + 1) % words.length; }
+      }
+      setTimeout(type, deleting ? 50 : 80);
+    }
+    type();
+
+    /* =============================================
+       NAVBAR SCROLL & ACTIVE LINK
+    ============================================= */
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", () => {
+      navbar.classList.toggle("scrolled", window.scrollY > 50);
+      const sections = document.querySelectorAll("section[id]");
+      const links = document.querySelectorAll(".nav-link");
+      let current = "";
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+      links.forEach(l => {
+        l.classList.remove("active");
+        if (l.getAttribute("href") === "#" + current) l.classList.add("active");
+      });
     });
-  </script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    /* =============================================
+       HAMBURGER MENU
+    ============================================= */
+    document.getElementById("hamburger").addEventListener("click", () => {
+      document.getElementById("nav-links").classList.toggle("open");
+      document.getElementById("hamburger").classList.toggle("active");
+    });
+    document.querySelectorAll(".nav-link").forEach(l => l.addEventListener("click", () => {
+      document.getElementById("nav-links").classList.remove("open");
+      document.getElementById("hamburger").classList.remove("active");
+    }));
+
+    /* =============================================
+       SCROLL REVEAL
+    ============================================= */
+    const reveals = document.querySelectorAll(".reveal");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("visible"); });
+    }, { threshold: 0.12 });
+    reveals.forEach(r => observer.observe(r));
+
+    /* =============================================
+       CERTIFICATE MODAL
+    ============================================= */
+    const modal = document.getElementById("certModal");
+    const modalTitle = document.getElementById("modalTitle");
+    const modalIconEl = document.getElementById("modalIconEl");
+    const modalProvider = document.getElementById("modalProvider");
+    const modalDate = document.getElementById("modalDate");
+    const modalMode = document.getElementById("modalMode");
+    const modalDesc = document.getElementById("modalDesc");
+    const modalClose = document.getElementById("certModalClose");
+
+    function openModal(card) {
+      modalTitle.textContent = card.dataset.title;
+
+      const modalImg = document.getElementById("modalImg");
+      const modalIconWrap = document.getElementById("modalIconWrap");
+      if (card.dataset.img) {
+        modalImg.src = card.dataset.img;
+        modalImg.style.display = "block";
+        modalIconWrap.style.display = "none";
+      } else {
+        modalImg.style.display = "none";
+        modalIconWrap.style.display = "flex";
+        modalIconEl.className = `bx bx-${card.dataset.icon}`;
+      }
+
+      modalProvider.textContent = card.dataset.provider;
+      modalDate.textContent = card.dataset.date;
+      modalMode.textContent = card.dataset.mode;
+      modalDesc.textContent = card.dataset.desc;
+      modal.classList.add("open");
+      document.body.style.overflow = "hidden";
+    }
+    function closeModal() {
+      modal.classList.remove("open");
+      document.body.style.overflow = "";
+    }
+
+    document.querySelectorAll("[data-cert]").forEach(card => {
+      card.style.cursor = "pointer";
+      card.addEventListener("click", () => openModal(card));
+    });
+    modalClose.addEventListener("click", closeModal);
+    modal.addEventListener("click", e => { if (e.target === modal) closeModal(); });
+    document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+    /* =============================================
+       CURSOR TRAIL
+    ============================================= */
+    const canvas = document.getElementById("trailCanvas");
+    const ctx = canvas.getContext("2d");
+    let W = canvas.width = window.innerWidth;
+    let H = canvas.height = window.innerHeight;
+    window.addEventListener("resize", () => {
+      W = canvas.width = window.innerWidth;
+      H = canvas.height = window.innerHeight;
+    });
+
+    const particles = [];
+    let mouseX = -200, mouseY = -200;
+
+    window.addEventListener("mousemove", e => {
+      mouseX = e.clientX; mouseY = e.clientY;
+      for (let i = 0; i < 3; i++) {
+        particles.push({
+          x: mouseX, y: mouseY,
+          vx: (Math.random() - 0.5) * 1.2,
+          vy: (Math.random() - 0.5) * 1.2,
+          life: 1,
+          size: Math.random() * 4 + 2,
+          hue: Math.random() < 0.6 ? 170 : 260   // teal or purple
+        });
+      }
+    });
+
+    function animateTrail() {
+      ctx.clearRect(0, 0, W, H);
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.life -= 0.035;
+        if (p.life <= 0) { particles.splice(i, 1); continue; }
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size * p.life, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(${p.hue}, 80%, 65%, ${p.life * 0.7})`;
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = `hsla(${p.hue}, 80%, 65%, 0.5)`;
+        ctx.fill();
+      }
+      requestAnimationFrame(animateTrail);
+    }
+    animateTrail();
+  </script>
 
 </body>
 

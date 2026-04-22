@@ -1099,3 +1099,141 @@ section .container {
 .img-fluid{
   height: 200px;
 }
+
+/* --- MODERNIZATION OVERRIDES --- */
+body::before {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Outfit", sans-serif !important;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+}
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+}
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(18, 214, 64, 0.1);
+  border-color: rgba(18, 214, 64, 0.3);
+}
+
+/* Skills modern */
+.skill-category {
+  margin-bottom: 25px;
+}
+.skill-category h4 {
+  color: #12d640;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill-tag {
+  background: rgba(18, 214, 64, 0.1);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(18, 214, 64, 0.3);
+  transition: all 0.3s ease;
+}
+.skill-tag:hover {
+  background: rgba(18, 214, 64, 0.3);
+  box-shadow: 0 0 10px rgba(18, 214, 64, 0.5);
+}
+
+/* Project modern */
+.project-card {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  background: rgba(0,0,0,0.4);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.project-card:hover img {
+  transform: scale(1.05);
+}
+.project-card-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+.project-card-content h4 {
+  color: #12d640;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.project-card-content p {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-bottom: 0;
+}
+
+/* Experience */
+.exp-timeline {
+  border-left: 2px solid rgba(18, 214, 64, 0.5);
+  padding-left: 25px;
+  position: relative;
+}
+.exp-timeline::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #12d640;
+  box-shadow: 0 0 10px rgba(18, 214, 64, 0.8);
+}
+.exp-date {
+  color: #12d640;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.exp-role {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.exp-company {
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+/* Certificates */
+.cert-card {
+  text-align: center;
+  padding: 20px;
+}
+.cert-card h4 {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.cert-card p {
+  color: #12d640;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
